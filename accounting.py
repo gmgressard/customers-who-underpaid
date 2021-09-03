@@ -78,9 +78,9 @@ def new_customers(customer_order_file, cost=1.00):
         price_paid = float(word[3])
 
         if price_of_melons > price_paid:
-            print(f"{customer_first_name} underpaid. They paid {price_paid}, expected {price_of_melons}.")
+            print(f"{customer_first_name} underpaid. They paid ${price_paid}, expected ${price_of_melons}")
         elif price_of_melons < price_paid:
-            print(f"{customer_first_name} overpaid. They paid {price_paid}, expected {price_of_melons}.")
+            print(f"{customer_first_name} overpaid. They paid ${price_paid}, expected ${price_of_melons}")
         else:
             continue
 
